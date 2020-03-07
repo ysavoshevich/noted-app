@@ -1,0 +1,50 @@
+{
+  "name": "noted-client",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.13.1",
+    "node": "9.5.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "^5.12.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "d3-ease": "^1.0.6",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.15",
+    "lodash-move": "^1.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-media": "^1.10.0",
+    "react-scripts": "3.3.1",
+    "react-spring": "^8.0.27",
+    "react-use-gesture": "^7.0.4",
+    "styled-components": "^5.0.1",
+    "uuid": "^3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3001"
+}
